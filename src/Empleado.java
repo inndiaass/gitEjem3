@@ -8,5 +8,8 @@ public class Empleado {
         this.edad=edad;
         this.sueldo=sueldo;
     }
+    public void incrementarEdad(){
+        edad += 1;
+    }
 
 }
