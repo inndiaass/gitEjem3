@@ -8,5 +8,7 @@ public class Empleado {
         this.edad=edad;
         this.sueldo=sueldo;
     }
-
+    public void incrementarSueldo(int porcentajeIncremento ){
+        this.sueldo+=sueldo*(1+porcentajeIncremento/100.0);
+    }
 }
